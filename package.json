@@ -1,0 +1,14 @@
+{
+  "name": "frontendmentor",
+  "private": true,
+  "version": "0.0.1",
+  "source": "./packages/*/index.html",
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.0",
+    "parcel": "2.14.0"
+  }
+}
