@@ -1,12 +1,14 @@
 {
   "name": "frontendmentor",
   "private": true,
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "start": "parcel packages/*/src/index.html --open",
-    "build": "parcel build packages/*/src/index.html --public-url ./"
+    "build": "npm run build --workspaces"
   },
   "devDependencies": {
-    "parcel": "2.14.0"
+    "parcel": "2.15.4"
   }
 }

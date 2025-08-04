@@ -1,0 +1,8 @@
+{
+  "name": "qr-code-component",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel --open",
+    "build": "parcel build --dist-dir ../../dist/qr-code-component --public-url ./"
+  }
+}
