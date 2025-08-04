@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "start": "parcel packages/*/src/index.html --open",
-    "build": "parcel build packages/*/src/index.html --dist-dir dist"
+    "build": "parcel build packages/*/src/index.html --public-url ./"
   },
   "devDependencies": {
     "parcel": "2.14.0"
